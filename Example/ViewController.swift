@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func pressButtonTapped(_ sender: UIButton) {
-        greatingLabel.text = "Hello, \(nameTextField.text ?? "")"
+        greatingLabel.text = "Hello, \(nameTextField.text ?? "")! How are you?"
     }
     
 
